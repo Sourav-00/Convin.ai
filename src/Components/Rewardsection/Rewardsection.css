@@ -1,0 +1,22 @@
+.reward-container{
+    margin-top: 8rem;
+}
+.badges{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.badges div{
+    width: 7rem;
+    margin: 0 4rem;
+}
+.badges img{
+    width: 100%;
+}
+.reward-container h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight:600;
+    margin-bottom:3rem;
+}

@@ -1,0 +1,64 @@
+.review-container{
+    /* display: flex;
+    justify-items: center; */
+    /* margin-top: 4rem; */
+    height: 42rem;
+   
+}
+.review-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 48rem;
+    height: 28rem;
+    /* z-index: 3; */
+    /* padding: 1rem; */
+    border-radius: 20px;
+    margin: 4rem;
+
+    -webkit-box-shadow: 0px 2px 16px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 16px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 16px -7px rgba(0,0,0,0.75);
+}
+.review-left{
+    width: 16rem;
+    
+    position: absolute;
+    top:4rem;
+    right:29rem;
+
+}
+.review-left img{
+    width: 100%;
+    
+    border-radius: 20px;
+}
+.review-right{
+    position: absolute;
+    top:1.5rem;
+    left:18rem;
+    width: 30rem;
+    height: 25rem;
+    margin-left: 1rem;
+    background:rgba(102, 153, 255, 0.1);
+    padding-right: 3rem;
+    padding: 2rem 3rem 2rem 1.5rem;
+    border-radius: 20px;
+    
+    overflow: visible;
+}
+.review-right img{
+    padding-bottom: 2rem;
+}
+.review-right p{
+    font-size: .9rem;
+    /* margin-bottom: 3rem; */
+}
+.review-right h6{
+    font-weight: 600;
+}
+.emp-name{
+    font-weight: 600;
+    margin-bottom: .3rem;
+}

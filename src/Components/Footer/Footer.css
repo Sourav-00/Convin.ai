@@ -1,0 +1,38 @@
+.footer-container{
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+.up{
+    display: flex;
+   justify-content: space-evenly;
+}
+.footer-logo{
+    width: 10rem;
+    /* height: rem; */
+    margin-bottom: 2rem;
+}
+.footer-logo img{
+    width: 100%;
+}
+.up h4{
+    color: black;
+    font-weight: 600;
+    font-size:1rem;
+    margin-bottom: 1.2rem;
+}
+.up p{
+    font-size: .8rem;
+    /* font-weight: 600; */
+    color: grey;
+}
+.location{
+    display: flex;
+}
+.location p{
+    padding-left: 2rem;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}

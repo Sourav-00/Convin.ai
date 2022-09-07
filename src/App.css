@@ -1,0 +1,25 @@
+.green-circle{
+    height: 20rem;
+    width: 20rem;
+    background-color: rgb(168, 240, 249,0.7);
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: -4;
+    border-radius: 50%;
+    filter: blur(30rem);
+    -webkit-filter: blur(3rem);
+}
+
+.blue-circle{
+    height: 25rem;
+    width: 25rem;
+    background-color: rgb(142, 147, 226,0.7);
+    position: fixed;
+    top: 30rem;
+    left: 20rem;
+    z-index: -3;
+    border-radius: 50%;
+    filter: blur(20rem);
+    -webkit-filter: blur(4rem);
+}
